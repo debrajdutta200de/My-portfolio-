@@ -1,0 +1,76 @@
+# Task: Debraj Dutta Portfolio Website - Version 2.0
+
+## Plan
+- [x] Step 1: Initialize Aesthetic Foundation
+  - [x] Configure `tailwind.config.js` with "Opulent" theme tokens (Gold, Deep Navy, Playfair Display).
+  - [x] Update `src/index.css` with fonts and global styles (mouse glow, glassmorphism).
+- [x] Step 2: Build Layout and Navigation
+  - [x] Create `src/components/layouts/MainLayout.tsx` with mouse-follow glow effect.
+  - [x] Create `src/components/Navbar.tsx` with theme toggle and gold accents.
+- [x] Step 3: Implement Hero Section
+  - [x] Add headline, subheadline, and animated typing effect.
+  - [x] Implement a 3D-ish floating tech object (using Lucide + Framer Motion).
+  - [x] Add "Available for Freelance" badge and primary/secondary buttons.
+- [x] Step 4: Implement About and Skills Section
+  - [x] Bio text with opulent styling.
+  - [x] Skill cards with hover lift and gold borders.
+- [x] Step 5: Implement Featured Projects Section
+  - [x] Search for project mockup images using `image_search`.
+  - [x] Create Project cards with mockups, badges, and demo links.
+- [x] Step 6: Implement Why Hire Me and Interactive Sections
+  - [x] Why Hire Me cards with animated icons.
+  - [x] Interactive section with click counter and theme switcher.
+- [x] Step 7: Implement Contact Section and Footer
+  - [x] Contact details and social links.
+  - [x] Symmetrical footer layout.
+- [x] Step 8: Final Polish and Routing
+  - [x] Setup routes in `src/routes.tsx`.
+  - [x] Ensure responsiveness and linting.
+- [x] Step 9: Fix All Issues (v1.0)
+  - [x] Replace duplicate project images with unique mockups
+  - [x] Add lazy loading and hover zoom to project images
+  - [x] Fix all live demo links to open in new tabs
+  - [x] Implement fully functional contact form with validation
+  - [x] Add loading states and success/error messages to form
+  - [x] Make phone number clickable (tel:)
+  - [x] Add WhatsApp link (wa.me format)
+  - [x] Make email clickable (mailto:)
+  - [x] Add proper social media links
+  - [x] Optimize animations for better performance
+  - [x] Reduce particle count and animation complexity
+  - [x] Fix mobile responsiveness issues
+  - [x] Add proper button click handlers for smooth scrolling
+  - [x] Hide 3D object on mobile for better performance
+- [x] Step 10: Major Updates (v2.0)
+  - [x] Rename "Personal Portfolio Website" to "The Ghost"
+  - [x] Update project description for The Ghost
+  - [x] Add unique dark-themed mockup for The Ghost
+  - [x] Add 4th project: "Interactive UI Landing Page"
+  - [x] Search and assign unique mockup for new project
+  - [x] Expand "Why Hire Me" from 4 to 6 cards
+  - [x] Add new cards: Structured Layout System, Problem Solving, Fast Delivery
+  - [x] Change layout to 3-column grid for visual balance
+  - [x] Create new "Who Am I?" Personal Branding section
+  - [x] Add entry-level developer positioning
+  - [x] Include freelance/remote opportunity statement
+  - [x] Add subtle animations to personal branding
+  - [x] Add 3 prominent quick contact buttons (Email, WhatsApp, LinkedIn)
+  - [x] Style quick buttons with appropriate colors
+  - [x] Keep functional contact form with Web3Forms
+  - [x] Ensure all contact methods are clickable
+  - [x] Verify all 4 projects have unique images
+  - [x] Verify all live demo buttons open in new tabs
+  - [x] Further optimize performance and animations
+  - [x] Update App.tsx and routes.tsx with new section
+  - [x] Final linting and testing
+
+## Notes
+- Colors: Primary (#D4AF37 Gold), Background (Deep Navy #0b1526), White (#F5F5F5).
+- Typography: Playfair Display for headers.
+- Contact form uses Web3Forms API - user needs to add their access key.
+- All 4 projects have unique and optimized images.
+- Performance optimized with reduced animations and lazy loading.
+- 6 "Why Hire Me" cards in 3-column layout for better balance.
+- Personal Branding section adds authenticity and entry-level positioning.
+- Multiple contact options: form, quick buttons, contact cards, social links.
+- Portfolio is now premium, structured, professional, and recruiter-ready.
